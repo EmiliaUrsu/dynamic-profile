@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>Dynamic Profile</title>
+    <style>
+        body{
+            background-color:lightgrey;
+        }
+        .wrapper{
+            width: 300px;
+            height: 300px;
+            border: 1px solid black;
+            margin-top: 100px;
+            margin-left: 300px;
+            border-radius: 160px;
+            overflow: hidden;
+            box-shadow: 0 0 5px 3px #333;
+        }
+        .profile{
+            width: 600px;
+            height: 300px;
+            border: 1px solid black;
+            background-color: beige;
+            
+            
+        }
+        .profile:hover{
+            transition: 3s;
+            margin-left: -300px;
+        }
+        .profile-picture{
+            width: 300px;
+            
+        }
+        .profile-nume{
+            float:right;
+            font-size: 25px;
+            margin-right: 55px;
+            margin-top: -25x;
+        }
+        .profile-bio{
+            float:right;
+            margin-right:-600px;
+            font-size: 15px;
+            margin-top: 80px;
+            text-align: right;
+            
+            
+        }
+        .profile-link{
+            float:right;
+            margin-right:-100px ;
+            margin-top: 180px;
+            text-decoration: none;
+            margin-left: -500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="profile">
+            <img class="profile-picture" src="https://www.aaf.org/images/AAF%20Images/Headshots/C_D/De_Niro_Robert_300x300.jpg" >
+            <h2 class="profile-nume"> Robert De Niro</h2>
+            <p class="profile-bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem rerum in itaque minus similique placeat? </p>
+            <a class="profile-link" href="https://ro.wikipedia.org/wiki/Robert_De_Niro"> read more </a>
+        </div>
+    </div>
+</body>
+</html>
